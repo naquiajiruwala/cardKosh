@@ -1,0 +1,105 @@
+#pageTitle
+{
+    margin: auto;
+    padding: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #8fcaca;
+    color: white;
+    font-family: sans-serif;
+}
+
+#nameElement
+{
+    background-color: #d4f0f0;
+    border: 2px solid white;
+    width: 45%;
+    padding: 5%;
+}
+
+#textLabel
+{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 15%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#fieldsetLabel
+{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+#inputField
+{
+    display:inline-block;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+}
+#genderLabel
+{
+    margin: auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: block;
+
+}
+
+#radioStart
+{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#radioButton
+{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#submitButton
+{
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+}
+
+#button
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 25%;
+    font-size: 14px;
+    background-color: #cce2cb;
+    border-radius: 3px;
+}
+
+#boxedIn
+{
+    border: none;
+    margin-top: 5%;
+}
+
+#textarea
+{
+    display: inline-block;
+    margin-left: 40%;
+}
+
+#formElements
+{
+    border-bottom: #b6cfb6 solid 2px;
+    margin-top: 2%;
+}
+
+#message
+{
+    width: 45%;
+    margin-left: 50%;
+    display: block;
+}
