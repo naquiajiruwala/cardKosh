@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Java Script</title> 
+    </head>
+    <body>
+        <h2 id="header">This is a test.</h2>
+        <div>
+        <p id="message">Are you ready?</p>
+            <button type="button" onclick='document.getElementById("message").innerHTML = "Welcome to the New World"'>
+                Yes
+            </button>
+            <button type="button" onclick='document.getElementById("message").innerHTML = "Come back when you are ready!"'>
+                No
+            </button>
+        </div>
+        <div>
+            <h2>Play with the cat</h2>
+            <img id="cat" src="https://p7.hiclipart.com/preview/207/688/890/cat-kitten-cartoon-clip-art-sleeping-cat.jpg" style="width:200px">
+            <button type="button" onclick='document.getElementById("cat").src="https://toppng.com/uploads/preview/clipart-cat-yarn-cute-cat-cartoon-characters-11563556980lc92rwygjx.png"'>
+                Wake the cat!
+            </button>
+        </div>
+        <div>
+            <p id="sizeChange" style="display: block;">You can change the size.</p>
+                <button type="button" onclick='document.getElementById("sizeChange").style.fontSize = "20px";'>
+                    Increase
+                </button>
+                <button type="button" onclick='document.getElementById("sizeChange").style.fontSize = "12px";'>
+                    Decrease
+                </button>
+        </div>
+        <div>
+            <p id="hideShow">You can hide it.</p>
+            <button type="button" onclick='document.getElementById("hideShow").style.display="none"'>
+                Hide it
+            </button>
+            <button type="button" onclick='document.getElementById("hideShow").style.display="block"'>
+                Show it
+            </button>
+        </div>    
+        <div>
+            <button type="button" onclick="changeName()">
+                Change it
+            </button>
+            <button type="button" onclick="changeItBack()">
+                Change it back
+            </button>
+        </div>
+        <div>
+        <p id="maths"></p>
+            <button type="button" onclick="Maths()">
+                Calculate
+            </button>
+        </div>
+       <div>
+            <input type="number" id="temp" value="Enter temperature in Fahrenheit" />
+            <button type="button" onclick="toCelsius(temp.value)">
+                Change to Celsius
+            </button>
+            <p id="tempChange"></p>
+        </div>
+        <div>
+            <button onclick="this.innerHTML = Date()">What's the time?</button>
+            <p id="time"></p>
+        </div>
+        <div>
+            <label>Enter a long sentence.</label>
+            <input type="text" value="" id="sentence">
+            <button type="button" onclick="calculateLength(sentence.value)">
+                Calculate length
+            </button>
+            <p id="length"></p>
+            <button type="button" onclick="findWord(sentence.value)">
+                    Search
+            </button>                
+            <p id="locate"></p>
+            <button type="button" onclick="sliceString(sentence.value)">
+                    Slice
+            </button>                
+            <p id="slice"></p>
+            <button type="button" onclick="subString(sentence.value)">
+                    Substring
+            </button>                
+            <p id="sub"></p>
+            <button type="button" onclick="extractWord(sentence.value)">
+                    Extract word
+            </button>                
+            <p id="subStr"></p>
+            <button type="button" onclick="replaceWord(sentence.value)">
+                    Replace word
+            </button>                
+            <p id="replace"></p>
+            <button type="button" onclick="changeCase(sentence.value)">
+                Change to lower
+            </button>
+            <label>Enter a search word.</label>
+            <input type="text" value="" id="searchWord">
+            <button type="button" onclick="findWordSearch(sentence.value, 'long')">
+                Search
+            </button>        
+        </div>
+            
+        <script src="Tutorial.js"></script>
+    </body> 
+</html>
